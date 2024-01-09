@@ -1,0 +1,255 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #0b0a0a;
+}
+header{
+    background-color: #1e1d1d;
+}
+nav{
+    background-color: #1e1d1d;
+}
+.header_content{
+    background-image: url(image/Abstract_Design.png);
+    
+}
+.fontSize{
+    font-size: 20px;
+    color: #FFFFFF;
+}
+.navbar-toggler-icon path {
+    fill: white;
+  }
+#Container_img{
+    width: 50%;
+    height: 583px;
+    margin: 0% 0% 0% 50%;
+    display: inline-block;
+}
+#Sub_Container{
+    width: 101px;
+    margin: 7% 1% -12% 46%;
+    z-index: 600;
+    display: inline-block;
+
+}
+.container_left{
+    margin: -56% 0% 0% 0%;
+}
+.Container_content{
+    margin: 0% 50% 0% 0%;
+
+}
+.button_color{
+    background-color: #703BF7;
+    color: #FFFFFF;
+}
+
+.continer_review{
+    margin: 0% 50% 0% 0%;
+}
+.card{
+    background-color: #1e1d1d;
+    color: white;
+}
+.display_small{
+    display: none;
+}
+.border_space{
+    border: 5px solid #1e1d1d;
+    border-radius: 20px;
+    padding: 10px;
+}
+.card_caption{
+    margin-top: 10%;
+}
+
+.Icon{
+    margin: 2% -14% 0% 0%;
+    
+}
+.Icon_Container{
+    margin: 35% 0% 13% 84%;
+
+}
+.font_caption{
+    font-size: 10px;
+}
+
+.bedroom {
+
+    border-radius: 15px;
+    background: #262626;
+    padding: 2px 11px; 
+    width: 90px;
+    height: 25px; 
+    font-size: 9px;
+
+} 
+.bathroom {
+
+    border-radius: 15px;
+    background: #262626;
+    padding: 2px 9px; 
+    width: 90px;
+    height: 25px; 
+    font-size: 9px;
+
+} 
+.villa{
+
+    border-radius: 15px;
+    background: #262626;
+    padding: 2px 9px; 
+    width: 59px;
+    height: 25px; 
+    font-size: 9px;
+
+}
+.grey_font_color{
+    color: #999999;
+}
+.view_Details{
+    padding: 0% 0% 0% 0% ;
+    margin: 0% 0% 0% 0% ;
+    width: 172px;
+    height: 40px;
+
+    font-size: 10px;
+}
+.subHeading{
+    color: white;
+}
+.view_all{
+    margin: 0% 0% 0% 0% ;
+    color: white;
+    border-radius: 15px;
+    background: #262626;
+    padding: 5px 9px; 
+    width: 97px;
+    height: 25px; 
+    font-size: 9px;
+}
+.view_all1{
+    margin: 0% 0% 0% 0% ;
+    color: white;
+    border-radius: 15px;
+    background: #262626;
+    padding: 5px 9px; 
+    width: 104px;
+    height: 25px; 
+    font-size: 9px;
+
+}
+.view_all2{
+    margin: 0% 0% 0% 0% ;
+    color: white;
+    border-radius: 15px;
+    background: #262626;
+    padding: 5px 9px; 
+    width: 75px;
+    height: 25px; 
+    font-size: 9px;
+
+}
+.display_none_for_larg{
+    display: none;
+}
+/* Small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .display_none{
+        display: none;
+    }
+    .navbar-toggler-icon path {
+        fill: white;
+      }
+    #Container_img{
+        width: 99%;
+        height: 60%;
+        margin: 0% 0% 0% 0%;
+  
+    }
+    #Sub_Container{
+        width: 200px;
+        margin-top: -115px;
+        margin: 27% 0% 0% 0%;
+
+    }
+    .Container_content{
+        margin: 0% 0% 0% 0%;
+    
+    }
+    .button_length{
+        padding: 2% 38% 2% 38%;
+    }
+    .button_length2{
+        padding: 2% 32% 2% 32%;
+    }
+    .continer_review{
+        margin: 0% 0% 0% 0%;
+        padding: 5%;
+    }
+    .card_length{
+        padding: 20%;
+        
+    }
+    .display_small{
+        display: block;
+    }
+    .card_caption{
+        margin-top: 5%;
+    }
+    .Icon{
+        margin: 2% -14% 0% 0%;
+        
+    }
+    .Icon_Container{
+        margin: 35% 0% 13% 84%;
+    }
+    .card_smallsc{
+        margin: 0% 0% 0% 9% ;
+    }
+    .view_all {
+        margin: 0% 29% 0% 2%;
+        color: white;
+        border-radius: 15px;
+        background: #262626;
+        padding: 5px 9px;
+        width: 111px;
+        height: 25px;
+        font-size: 9px;
+    }
+    .view_all1{
+        margin: 0% 0% 0% 0% ;
+        color: white;
+        border-radius: 15px;
+        background: #262626;
+        padding: 5px 9px; 
+        width: 104px;
+        height: 25px; 
+        font-size: 9px;
+    
+    }
+    .view_all2{
+        margin: 0% 39% 0% 2% ;
+        color: white;
+        border-radius: 15px;
+        background: #262626;
+        padding: 5px 9px; 
+        width: 75px;
+        height: 25px; 
+        font-size: 9px;
+    
+    }
+    .display_none_for_larg{
+        display: block;
+    }
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+   
+}

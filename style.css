@@ -499,6 +499,17 @@ textarea {
         border-bottom: 1px solid;
 
     }
+    .linef {
+        border-right: 1px solid;
+        border-bottom: 0px solid;
+
+    }
+
+    .linef1 {
+        border-right: 0px solid;
+        border-bottom: 1px solid;
+
+    }
     .Services_card_part1 {
         width: 22rem;
     }
